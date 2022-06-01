@@ -1,4 +1,6 @@
 #display {
+    height: 30px;
+    text-align: end;
     font-size: 32px;
     font-weight: bold;
     border: 2px solid black;
@@ -7,11 +9,16 @@
     max-width: 400px;
 }
 
+#display p {
+    margin: 0px;
+}
+
 #buttons {
     display: flex;
     flex-direction: column;
 }
 
 button {
-    padding: 40px;
+    padding: 28px;
+    font-size: 48px;
 }
