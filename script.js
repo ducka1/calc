@@ -28,3 +28,5 @@ function operate(op, a, b) {
             console.log('Sorry, that operation is not supported.');
     }
 }
+
+const display = document.querySelector('#display');

@@ -1,17 +1,17 @@
-.display {
+#display {
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 12px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 400px;
 }
 
-.calculator {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: end; */
-    width: 200px;
-    margin: 12px;
+#buttons {
+    display: flex;
+    flex-direction: column;
 }
 
 button {
-    padding: 15px;
+    padding: 40px;
 }
