@@ -40,7 +40,7 @@ function calculate() {
     presses[0] = result;
 }
 
-const displayText = document.querySelector('p');
+const displayText = document.querySelector('#displaytext');
 const buttons = document.querySelectorAll('button');
 const operators = ['+', '-', '*', '/'];
 let presses = [];
